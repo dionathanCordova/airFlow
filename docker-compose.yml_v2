@@ -1,0 +1,40 @@
+version: "3"
+services:
+  init-airflow:
+    image: apache/airflow:2.1.2
+    volumes:
+      - ./init_script.sh:/init_script.sh
+    entrypoint: /bin/bash -c "/init_script.sh"
+    depends_on:
+      - postgres
+
+  webserver:
+    image: apache/airflow:2.1.2
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./plugins:/opt/airflow/plugins
+    depends_on:
+      - postgres
+
+  scheduler:
+    image: apache/airflow:2.1.2
+    command: scheduler
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./plugins:/opt/airflow/plugins
+    depends_on:
+      - webserver
+
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: airflow
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+volumes:
+  pg_data:
