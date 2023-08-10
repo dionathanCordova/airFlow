@@ -135,3 +135,24 @@
 [2023-08-10T17:50:47.357+0000] {logging_mixin.py:150} INFO - [2023-08-10T17:50:47.356+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2023-08-10T17:50:47.416+0000] {logging_mixin.py:150} INFO - [2023-08-10T17:50:47.416+0000] {dag.py:3508} INFO - Setting next_dagrun for example_task_group_decorator to 2023-08-09T17:50:47.415957+00:00, run_after=2023-08-10T17:50:47.415957+00:00
 [2023-08-10T17:50:47.455+0000] {processor.py:179} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.225 seconds
+[2023-08-10T17:51:17.878+0000] {processor.py:157} INFO - Started process (PID=1143) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-08-10T17:51:17.879+0000] {processor.py:826} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-08-10T17:51:17.880+0000] {logging_mixin.py:150} INFO - [2023-08-10T17:51:17.880+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-08-10T17:51:17.921+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-08-10T17:51:17.987+0000] {logging_mixin.py:150} INFO - [2023-08-10T17:51:17.987+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-10T17:51:18.056+0000] {logging_mixin.py:150} INFO - [2023-08-10T17:51:18.056+0000] {dag.py:3508} INFO - Setting next_dagrun for example_task_group_decorator to 2023-08-09T17:51:18.055559+00:00, run_after=2023-08-10T17:51:18.055559+00:00
+[2023-08-10T17:51:18.136+0000] {processor.py:179} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.264 seconds
+[2023-08-10T17:51:48.522+0000] {processor.py:157} INFO - Started process (PID=1203) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-08-10T17:51:48.523+0000] {processor.py:826} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-08-10T17:51:48.525+0000] {logging_mixin.py:150} INFO - [2023-08-10T17:51:48.524+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-08-10T17:51:48.559+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-08-10T17:51:48.619+0000] {logging_mixin.py:150} INFO - [2023-08-10T17:51:48.618+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-10T17:51:48.678+0000] {logging_mixin.py:150} INFO - [2023-08-10T17:51:48.677+0000] {dag.py:3508} INFO - Setting next_dagrun for example_task_group_decorator to 2023-08-09T17:51:48.677390+00:00, run_after=2023-08-10T17:51:48.677390+00:00
+[2023-08-10T17:51:48.736+0000] {processor.py:179} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.218 seconds
+[2023-08-10T17:52:18.778+0000] {processor.py:157} INFO - Started process (PID=1261) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-08-10T17:52:18.780+0000] {processor.py:826} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-08-10T17:52:18.781+0000] {logging_mixin.py:150} INFO - [2023-08-10T17:52:18.781+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-08-10T17:52:18.823+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-08-10T17:52:18.891+0000] {logging_mixin.py:150} INFO - [2023-08-10T17:52:18.891+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-10T17:52:18.958+0000] {logging_mixin.py:150} INFO - [2023-08-10T17:52:18.957+0000] {dag.py:3508} INFO - Setting next_dagrun for example_task_group_decorator to 2023-08-09T17:52:18.957438+00:00, run_after=2023-08-10T17:52:18.957438+00:00
+[2023-08-10T17:52:19.021+0000] {processor.py:179} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.247 seconds
